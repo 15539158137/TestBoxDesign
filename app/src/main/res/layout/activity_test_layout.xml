@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mainview">
+<com.example.administrator.testboxdesign.designbox_view.BoxChooseView
+    android:id="@+id/boxchooseview"
+    app:layout_widthPercent="30%sw"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"></com.example.administrator.testboxdesign.designbox_view.BoxChooseView>
+    <com.example.administrator.testboxdesign.designbox_view.BoxDesignView
+        android:id="@+id/drawview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/boxchooseview"></com.example.administrator.testboxdesign.designbox_view.BoxDesignView>
+
+    <!--单表箱点击时候出现的拖动图标-->
+    <ImageView
+        android:visibility="invisible"
+        android:id="@+id/example_onebox"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/i1x1"
+        app:layout_heightPercent="5%sw"
+        app:layout_widthPercent="5%sw" />
+    <!--单表箱的实际显示-->
+    <ImageView
+        android:visibility="invisible"
+        android:id="@+id/box_one"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/i1x1"
+        app:layout_heightPercent="7%sw"
+        app:layout_widthPercent="7%sw" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="下一步"
+        android:id="@+id/next"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
+</com.zhy.android.percent.support.PercentRelativeLayout>

@@ -1,0 +1,201 @@
+<com.example.administrator.testboxdesign.MyScrollView android:id="@+id/leftview1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00ffff"
+    app:layout_widthPercent="30%sw"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.zhy.android.percent.support.PercentRelativeLayout
+        android:id="@+id/leftview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:padding="50dp">
+
+        <com.zhy.android.percent.support.PercentRelativeLayout
+
+            android:id="@+id/one"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_heightPercent="10%sw">
+
+            <ImageView
+                android:id="@+id/i1"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/i1x1"
+                app:layout_heightPercent="5%sw"
+                app:layout_widthPercent="5%sw" />
+        </com.zhy.android.percent.support.PercentRelativeLayout>
+        <!--横2-->
+        <com.zhy.android.percent.support.PercentRelativeLayout
+            android:id="@+id/two"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_below="@+id/one"
+            app:layout_heightPercent="10%sw">
+
+            <ImageView
+                android:id="@+id/i2"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/i1x2"
+                app:layout_heightPercent="5%sw"
+                app:layout_widthPercent="10%sw" />
+        </com.zhy.android.percent.support.PercentRelativeLayout>
+        <!--纵2-->
+        <com.zhy.android.percent.support.PercentRelativeLayout
+            android:id="@+id/three"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_below="@+id/two"
+            app:layout_heightPercent="10%sw">
+
+            <ImageView
+                android:id="@+id/i3"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/i2x1"
+                app:layout_heightPercent="10%sw"
+                app:layout_widthPercent="5%sw" />
+        </com.zhy.android.percent.support.PercentRelativeLayout>
+        <!--横3-->
+        <com.zhy.android.percent.support.PercentRelativeLayout
+            android:id="@+id/four"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_below="@+id/three"
+            app:layout_heightPercent="10%sw">
+
+            <ImageView
+                android:id="@+id/i4"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/i1x3"
+                app:layout_heightPercent="5%sw"
+                app:layout_widthPercent="15%sw" />
+        </com.zhy.android.percent.support.PercentRelativeLayout>
+        <!--纵3-->
+        <com.zhy.android.percent.support.PercentRelativeLayout
+            android:id="@+id/five"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_below="@+id/four"
+            app:layout_heightPercent="15%sw">
+
+            <ImageView
+                android:id="@+id/i5"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/i3x1"
+                app:layout_heightPercent="15%sw"
+                app:layout_widthPercent="5%sw" />
+        </com.zhy.android.percent.support.PercentRelativeLayout>
+        <!--纵4-->
+        <com.zhy.android.percent.support.PercentRelativeLayout
+            android:id="@+id/six"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_below="@+id/five"
+            app:layout_heightPercent="25%sw">
+
+            <ImageView
+                android:id="@+id/i6"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/i4x1"
+                app:layout_heightPercent="20%sw"
+                app:layout_widthPercent="5%sw" />
+        </com.zhy.android.percent.support.PercentRelativeLayout>
+        <!--横4-->
+        <com.zhy.android.percent.support.PercentRelativeLayout
+            android:id="@+id/severn"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_below="@+id/six"
+            app:layout_heightPercent="10%sw">
+
+            <ImageView
+                android:id="@+id/i7"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/i1x4"
+                app:layout_heightPercent="5%sw"
+                app:layout_widthPercent="20%sw" />
+        </com.zhy.android.percent.support.PercentRelativeLayout>
+        <!--田子4-->
+        <com.zhy.android.percent.support.PercentRelativeLayout
+            android:id="@+id/eight"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_below="@+id/severn"
+            app:layout_heightPercent="15%sw">
+
+            <ImageView
+                android:id="@+id/i8"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/i2x2"
+                app:layout_heightPercent="10%sw"
+                app:layout_widthPercent="10%sw" />
+        </com.zhy.android.percent.support.PercentRelativeLayout>
+        <!--田子6 纵向-->
+        <com.zhy.android.percent.support.PercentRelativeLayout
+            android:id="@+id/nine"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_below="@+id/eight"
+            app:layout_heightPercent="15%sw">
+
+            <ImageView
+                android:id="@+id/i9"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/i3x2"
+                app:layout_heightPercent="15%sw"
+                app:layout_widthPercent="10%sw" />
+        </com.zhy.android.percent.support.PercentRelativeLayout>
+        <!--田子6 横向-->
+        <com.zhy.android.percent.support.PercentRelativeLayout
+            android:id="@+id/ten"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_below="@+id/nine"
+            app:layout_heightPercent="15%sw">
+            <ImageView
+                android:id="@+id/i10"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/i2x3"
+                app:layout_heightPercent="10%sw"
+                app:layout_widthPercent="15%sw" />
+        </com.zhy.android.percent.support.PercentRelativeLayout>
+        <!--田子9 -->
+        <com.zhy.android.percent.support.PercentRelativeLayout
+            android:id="@+id/a11"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_below="@+id/ten"
+            app:layout_heightPercent="15%sw">
+            <ImageView
+                android:id="@+id/i11"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/i3x3"
+                app:layout_heightPercent="15%sw"
+                app:layout_widthPercent="15%sw" />
+        </com.zhy.android.percent.support.PercentRelativeLayout>
+    </com.zhy.android.percent.support.PercentRelativeLayout>
+</com.example.administrator.testboxdesign.MyScrollView>

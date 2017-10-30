@@ -1,0 +1,7 @@
+<!--右侧的画图区域-->
+<com.zhy.android.percent.support.PercentRelativeLayout android:id="@+id/drawview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_toRightOf="@+id/leftview1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+</com.zhy.android.percent.support.PercentRelativeLayout>
